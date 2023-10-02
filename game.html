@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Quiz Challenge</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="highscores.html">High Score</a>
+      <h1>Game Time!</h1>
+      <div id="timer">0</div>
+    </header>
+    <main>
+      <article>
+        <h1>1. Inside which HTMLelement do we put JavaScript in?</h1>
+        <ul>
+          <li><button>&ltJavaScript&gt</button></li>
+          <li><button>&ltscripting&gt</button></li>
+          <li><button>&ltJS&gt</button></li>
+          <li><button>&ltscript&gt</button></li>
+        </ul>
+      </article>
+      <article>
+        <h1>1. Inside which HTMLelement do we put JavaScript in?</h1>
+        <ul>
+          <li><button>&ltJavaScript&gt</button></li>
+          <li><button>&ltscripting&gt</button></li>
+          <li><button>&ltJS&gt</button></li>
+          <li><button>&ltscript&gt</button></li>
+        </ul>
+      </article>
+      <article>
+        <h1>
+          2. What is the correct JavaScript syntax to change the content of the
+          HTML element below?
+        </h1>
+        <ul>
+          <li>
+            <button>
+              document.getElementByName("p").innerHTML = "Hello World!";
+            </button>
+          </li>
+          <li><button>#demo.innerHTML = "Hello World!";</button></li>
+          <li>
+            <button>
+              document.getElement("p").innerHTML = "Hello World!";
+            </button>
+          </li>
+          <li>
+            <button>
+              document.getElementById("demo").innerHTML = "Hello World!";
+            </button>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h1>3. Where is the correct place to insert a JavaScript?</h1>
+        <ul>
+          <li><button>The &ltbody&gt section</button></li>
+          <li>
+            <button>Both the &ltbody&gt and the &lthead&gt sections</button>
+          </li>
+          <li><button>&lthead&gt section</button></li>
+        </ul>
+      </article>
+      <article>
+        <h1>
+          4. What is the correct syntax for referring to an external script
+          called "xx.js"?
+        </h1>
+        <ul>
+          <li><button>&ltscript name="xx.js"&gt</button></li>
+          <li><button>&ltscript href="xx.js"&gt</button></li>
+          <li><button>&ltscript src="xx.js"&gt</button></li>
+          <li><button>&ltscript source="xx.js"&gt</button></li>
+        </ul>
+      </article>
+      <article>
+        <h1>5. How do you write "Hello World" in an alert box?</h1>
+        <ul>
+          <li><button>msg("Hello World")</button></li>
+          <li><button>msgBox("Hello World")</button></li>
+          <li><button>alert("Hello World")</button></li>
+          <li><button>alertBox("Hello World")</button></li>
+        </ul>
+      </article>
+      <article id="game-complete">
+        <h1>
+          Game comeplete! Please include your intials and see how you compare on
+          our scoreboard.
+        </h1>
+        <form>
+          <label>Type your initials here:</label>
+          <input type="text" />
+        </form>
+      </article>
+    </main>
+    <script src="script.js" async defer></script>
+  </body>
+</html>

@@ -11,3 +11,4 @@ Module 4 - A dynamically created project using HTML, CSS, and JS to create a qui
 - https://www.w3schools.com/css/css3_buttons.asp
 - https://www.w3schools.com/html/html_forms.asp
 - https://www.w3schools.com/cssref/pr_class_cursor.php
+- https://stackoverflow.com/questions/8919682/remove-all-styling-formatting-from-hyperlinks
