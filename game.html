@@ -16,21 +16,12 @@
     </header>
     <main>
       <article>
-        <h1>1. Inside which HTMLelement do we put JavaScript in?</h1>
+        <h1>1. Inside which HTML element do we put JavaScript in?</h1>
         <ul>
-          <li><button>&ltJavaScript&gt</button></li>
-          <li><button>&ltscripting&gt</button></li>
-          <li><button>&ltJS&gt</button></li>
-          <li><button>&ltscript&gt</button></li>
-        </ul>
-      </article>
-      <article>
-        <h1>1. Inside which HTMLelement do we put JavaScript in?</h1>
-        <ul>
-          <li><button>&ltJavaScript&gt</button></li>
-          <li><button>&ltscripting&gt</button></li>
-          <li><button>&ltJS&gt</button></li>
-          <li><button>&ltscript&gt</button></li>
+          <li><button class="wrongAnswer">&ltJavaScript&gt</button></li>
+          <li><button class="wrongAnswer">&ltscripting&gt</button></li>
+          <li><button class="wrongAnswer">&ltJS&gt</button></li>
+          <li><button class="correctAnswer">&ltscript&gt</button></li>
         </ul>
       </article>
       <article>
@@ -40,18 +31,22 @@
         </h1>
         <ul>
           <li>
-            <button>
+            <button class="wrongAnswer">
               document.getElementByName("p").innerHTML = "Hello World!";
             </button>
           </li>
-          <li><button>#demo.innerHTML = "Hello World!";</button></li>
           <li>
-            <button>
+            <button class="wrongAnswer">
+              #demo.innerHTML = "Hello World!";
+            </button>
+          </li>
+          <li>
+            <button class="wrongAnswer">
               document.getElement("p").innerHTML = "Hello World!";
             </button>
           </li>
           <li>
-            <button>
+            <button class="correctAnswer">
               document.getElementById("demo").innerHTML = "Hello World!";
             </button>
           </li>
@@ -60,11 +55,14 @@
       <article>
         <h1>3. Where is the correct place to insert a JavaScript?</h1>
         <ul>
-          <li><button>The &ltbody&gt section</button></li>
+          <li><button class="correctAnswer">The &ltbody&gt section</button></li>
           <li>
-            <button>Both the &ltbody&gt and the &lthead&gt sections</button>
+            <button class="wrongAnswer">
+              Both the &ltbody&gt and the &lthead&gt sections
+            </button>
           </li>
-          <li><button>&lthead&gt section</button></li>
+          <li><button class="wrongAnswer">&lthead&gt section</button></li>
+          <li><button class="wrongAnswer">&lmeta&gt section</button></li>
         </ul>
       </article>
       <article>
@@ -73,19 +71,27 @@
           called "xx.js"?
         </h1>
         <ul>
-          <li><button>&ltscript name="xx.js"&gt</button></li>
-          <li><button>&ltscript href="xx.js"&gt</button></li>
-          <li><button>&ltscript src="xx.js"&gt</button></li>
-          <li><button>&ltscript source="xx.js"&gt</button></li>
+          <li>
+            <button class="wrongAnswer">&ltscript name="xx.js"&gt</button>
+          </li>
+          <li>
+            <button class="wrongAnswer">&ltscript href="xx.js"&gt</button>
+          </li>
+          <li>
+            <button class="correctAnswer">&ltscript src="xx.js"&gt</button>
+          </li>
+          <li>
+            <button class="wrongAnswer">&ltscript source="xx.js"&gt</button>
+          </li>
         </ul>
       </article>
       <article>
         <h1>5. How do you write "Hello World" in an alert box?</h1>
         <ul>
-          <li><button>msg("Hello World")</button></li>
-          <li><button>msgBox("Hello World")</button></li>
-          <li><button>alert("Hello World")</button></li>
-          <li><button>alertBox("Hello World")</button></li>
+          <li><button class="wrongAnswer">msg("Hello World")</button></li>
+          <li><button class="wrongAnswer">msgBox("Hello World")</button></li>
+          <li><button class="correctAnswer">alert("Hello World")</button></li>
+          <li><button class="wrongAnswer">alertBox("Hello World")</button></li>
         </ul>
       </article>
       <article id="game-complete">
