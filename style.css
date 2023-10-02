@@ -15,6 +15,12 @@ header {
 main {
   text-align: center;
   font-size: 30px;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
 }
 
 #startButton {
