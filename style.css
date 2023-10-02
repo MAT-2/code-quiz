@@ -6,8 +6,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: grey;
+  background-color: rgb(204, 196, 196);
   padding: 15px;
-  border: black;
+  border: 2px solid black;
   border-radius: 10px;
+}
+
+main {
+  text-align: center;
+  font-size: 30px;
+}
+
+#startButton {
+  font-size: 30px;
 }
