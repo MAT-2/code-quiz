@@ -39,6 +39,11 @@ button {
   border-radius: 10px;
   background-color: rgb(77, 108, 232);
   color: white;
+  cursor: pointer;
+}
+
+input {
+  height: 25px;
 }
 
 button:hover {
