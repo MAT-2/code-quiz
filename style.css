@@ -55,3 +55,7 @@ button:hover {
   color: white;
   text-decoration: none;
 }
+
+#game-complete {
+  display: none;
+}
