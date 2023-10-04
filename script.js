@@ -67,5 +67,8 @@ function saveScore() {
     time: time,
   };
   console.log(scoreDetails);
-  // localStorage.setItem("scoreDetails", JSON.stringify(scoreDetails));
+  var scoreData = JSON.parse(localStorage.getItem("scoreDetails")) || [];
+  console.log(scoreData);
+  scoreData.push(scoreDetails);
+  localStorage.setItem("scoreDetails", JSON.stringify(scoreData));
 }
