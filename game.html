@@ -13,10 +13,10 @@
       <a href="highscores.html">High Score</a>
       <h1>Game Time!</h1>
       <div class="timer">
-        <span class="timeLeft"></span>
+        <span class="timeLeft">60</span>
       </div>
     </header>
-    <main>
+    <main id="questionContainer">
       <article class="questionSection">
         <h1>1. Inside which HTML element do we put JavaScript in?</h1>
         <ul>
@@ -95,18 +95,20 @@
           <li><button class="correctAnswer">alert("Hello World")</button></li>
           <li><button class="wrongAnswer">alertBox("Hello World")</button></li>
         </ul>
-      </article>
-      <article id="game-complete">
-        <h1>
-          Game comeplete! Please include your intials and see how you compare on
-          our scoreboard.
-        </h1>
-        <form>
-          <label>Type your initials here:</label>
-          <input type="text" />
-        </form>
+        <button id="submit">SUBMIT</button>
       </article>
     </main>
+    <article id="game-complete">
+      <h1>
+        Game comeplete! Please include your intials and see how you compare on
+        our scoreboard.
+      </h1>
+      <form>
+        <label>Type your initials here:</label>
+        <input type="text" id="name" />
+      </form>
+      <button id="save">SAVE</button>
+    </article>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="script.js" async defer></script>
   </body>

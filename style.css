@@ -59,3 +59,18 @@ button:hover {
 #game-complete {
   display: none;
 }
+
+#save,
+#submit {
+  font-size: larger;
+  border-radius: 10px;
+  background-color: rgb(77, 108, 232);
+  color: white;
+  cursor: pointer;
+}
+
+#save:hover,
+#submit:hover {
+  background-color: rgb(128, 207, 207);
+  transition-duration: 0.2s;
+}
