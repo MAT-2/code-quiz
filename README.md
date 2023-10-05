@@ -14,3 +14,4 @@ Module 4 - A dynamically created project using HTML, CSS, and JS to create a qui
 - https://stackoverflow.com/questions/8919682/remove-all-styling-formatting-from-hyperlinks
 - https://www.w3schools.com/jsref/prop_style_display.asp
 - https://htmlcolorcodes.com/
+- https://kes3583.medium.com/how-to-append-array-of-elements-to-a-dom-fa4118a0d77f
