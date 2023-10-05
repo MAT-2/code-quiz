@@ -2,6 +2,9 @@
 
 Module 4 - A dynamically created project using HTML, CSS, and JS to create a quiz application.
 
+## Notes
+
+Although creating this project was fun exploring HTML, CSS and JS skills, I learned a lot about things I need to work on. Aspects of the web application like Local Storage, timer functions, and making callbacks to the saved local data to be displayed I had difficulty implementing. If things worked, the project would have buttons working (wrong answer = button turns red = time is subtracted by 10 seconds; correct answer = button turns green). It was challenging, but it taught me a lot of what goes on behind the scene for more complicated projects, and how easy things can break when the code implementation becomes more complicated.
 ## License
 
 Refer to LICENSE
