@@ -7,8 +7,8 @@ var counter;
 var time;
 //variables to capture between wrong vs correct answer choices
 //IMPORTANT NOTE: using querySelector only selects the first button, since it is only wanting to use one element. And querySelectorAll does not work either.
-var wrongEl = document.querySelector(".wrongAnswer");
-var correctEl = document.querySelector(".correctAnswer");
+var wrongEl = document.querySelectorAll(".wrongAnswer");
+var correctEl = document.querySelectorAll(".correctAnswer");
 //variable to capture input when user puts name for scoreboard.
 var inputName = document.getElementById("name");
 //variable for submit button
@@ -48,6 +48,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 //Creating an event listener whenever a correct answer button is pressed, highlight green.
+//Have to create a For Loop grabbing it like an array and then including an addEventListener.
 correctEl.addEventListener("click", () => {
   correctEl.style.backgroundColor = "#81f683";
 });
