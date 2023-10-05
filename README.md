@@ -2,6 +2,14 @@
 
 Module 4 - A dynamically created project using HTML, CSS, and JS to create a quiz application.
 
+## License
+
+Refer to LICENSE
+
+## Installation
+
+N/A
+
 ## References
 
 - https://stackoverflow.com/questions/19364836/how-to-center-ordered-list-number-in-html
@@ -15,3 +23,9 @@ Module 4 - A dynamically created project using HTML, CSS, and JS to create a qui
 - https://www.w3schools.com/jsref/prop_style_display.asp
 - https://htmlcolorcodes.com/
 - https://kes3583.medium.com/how-to-append-array-of-elements-to-a-dom-fa4118a0d77f
+
+## Screenshots
+
+![Alt text](image-3.png)
+![Alt text](image.png)
+![Alt text](image-2.png)
